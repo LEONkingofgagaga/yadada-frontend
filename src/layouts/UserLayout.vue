@@ -4,7 +4,7 @@
       <a-layout-header class="header">
         <a-space>
           <img class="logo" src="../assets/logo.png" />
-          <div>鱼答答 AI 答题应用平台</div>
+          <div>鸭答答 AI 智慧问答应用平台</div>
         </a-space>
       </a-layout-header>
       <a-layout-content class="content">
@@ -12,7 +12,7 @@
       </a-layout-content>
       <a-layout-footer class="footer">
         <a href="https://www.code-nav.cn" target="_blank">
-          编程导航 by 程序员鱼皮
+          程序员 by 鸭哥
         </a>
       </a-layout-footer>
     </a-layout>
