@@ -1,7 +1,8 @@
 import axios from "axios";
 import { Message } from "@arco-design/web-vue";
 
-export const isDev: boolean = process.env.NODE_ENV === "development";
+// 是否是开发环境
+export const isDev: boolean = process.env.NODE_ENV === "dev";
 
 const myAxios = axios.create({
   baseURL: isDev
@@ -10,6 +11,11 @@ const myAxios = axios.create({
   timeout: 60000,
   withCredentials: true,
 });
+// const myAxios = axios.create({
+//   baseURL: "http://localhost:8101",
+//   timeout: 60000,
+//   withCredentials: true,
+// });
 
 // 全局请求拦截器
 myAxios.interceptors.request.use(
