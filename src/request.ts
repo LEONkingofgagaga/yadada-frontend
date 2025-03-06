@@ -2,7 +2,7 @@ import axios from "axios";
 import { Message } from "@arco-design/web-vue";
 
 // 是否是开发环境
-export const isDev: boolean = process.env.NODE_ENV === "dev";
+export const isDev: boolean = process.env.NODE_ENV === "development";
 
 const myAxios = axios.create({
   baseURL: isDev
