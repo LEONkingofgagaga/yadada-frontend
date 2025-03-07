@@ -1,4 +1,4 @@
-# yudada-frontend
+# yadada-frontend
 
 ## Project setup
 ```
